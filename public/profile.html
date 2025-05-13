@@ -56,12 +56,25 @@
 </head>
 <body>
     <div class="container">
+        <a href="index.html" style="display: inline-block; margin-bottom: 20px;">&#8592; กลับไปยังหน้าแรก</a>
         <h1>ตั้งค่าโปรไฟล์ผู้ใช้</h1>
-        <form>
-            <div class="form-group">
-                <label for="username">ชื่อผู้ใช้:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
+        <div class="card">
+            <form>
+                <div class="form-group">
+                    <label for="username">ชื่อผู้ใช้:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">อีเมล:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">รหัสผ่าน:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <button type="submit">บันทึกข้อมูล</button>
+            </form>
+        </div>
             <div class="form-group">
                 <label for="email">อีเมล:</label>
                 <input type="email" id="email" name="email" required>
