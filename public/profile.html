@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เข้าสู่ระบบ</title>
+    <title>โปรไฟล์ผู้ใช้</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
@@ -56,20 +56,22 @@
 </head>
 <body>
     <div class="container">
-        <h1>เข้าสู่ระบบ</h1>
-        <div class="card">
-            <form id="loginForm">
-                <div class="form-group">
-                    <label for="username">ชื่อผู้ใช้:</label>
-                    <input type="text" id="username" name="username" required>
-                </div>
-                <div class="form-group">
-                    <label for="password">รหัสผ่าน:</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                <button type="submit">เข้าสู่ระบบ</button>
-            </form>
-        </div>
+        <h1>ตั้งค่าโปรไฟล์ผู้ใช้</h1>
+        <form>
+            <div class="form-group">
+                <label for="username">ชื่อผู้ใช้:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">อีเมล:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">รหัสผ่าน:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <button type="submit">บันทึกข้อมูล</button>
+        </form>
     </div>
 </body>
 </html>

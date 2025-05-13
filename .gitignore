@@ -9,3 +9,24 @@ node_modules/
 
 # macOS system files
 .DS_Store
+
+# Build output directory
+dist/
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store
