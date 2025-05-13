@@ -1,0 +1,11 @@
+# Local Netlify folder
+.netlify
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store
